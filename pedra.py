@@ -28,6 +28,7 @@ tempo = sleep(1)
 print('Papel...')
 tempo = sleep(1)
 print('Tesoura!')
+
 tempo = sleep(1)
 
 if maquina == 0:
@@ -45,7 +46,7 @@ elif maquina == 1:
         print('A maquina escolheu papel e voce papel, deu empate!')
     if jogador == 3:
         print('A maquina escolheu papel e voce tesoura, voce ganhou!')
-        
+
 elif maquina == 2:
     if jogador == 1:
         print('A maquina escolheu tesoura e voce pedra, voce ganhou!')
